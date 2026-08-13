@@ -13,36 +13,34 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Steel Wave — Tekla Training & Structural Steel Detailing | Trichy",
+  metadataBase: new URL("https://merge-steel-three.vercel.app"),
+  title: "Steel Wave — Structural Steel Detailing Experts | Trichy",
   description:
-    "Steel Wave (est. 2018): authorized Tekla training, 180+ student placements, and structural steel detailing from input review to fabrication release. Thillai Nagar, Trichy, Tamil Nadu.",
+    "Steel Wave (est. 2018): High-quality structural steel detailing services from input review to fabrication release. Specializing in advanced BIM coordination and clash detection. Thillai Nagar, Trichy.",
   keywords: [
     "Steel Wave",
     "STEELWAVE",
     "engineered steel solutions",
-    "Tekla training Trichy",
-    "Tekla Structures course",
     "structural steel detailing",
     "steel detailing India",
     "fabrication drawings",
     "shop drawings",
     "BIM Trichy",
-    "steel training placement",
     "Thillai Nagar",
   ],
   authors: [{ name: "Steel Wave" }],
   openGraph: {
-    title: "Steel Wave — Tekla Training & Structural Steel Detailing | Trichy",
+    title: "Steel Wave — Structural Steel Detailing Experts | Trichy",
     description:
-      "Steel Wave (est. 2018): authorized Tekla training, 180+ student placements, and structural steel detailing from input review to fabrication release. Thillai Nagar, Trichy, Tamil Nadu.",
-    url: "https://www.steelwavetrichy.com/",
+      "Steel Wave (est. 2018): High-quality structural steel detailing services from input review to fabrication release. Thillai Nagar, Trichy.",
+    url: "https://merge-steel-three.vercel.app/",
     siteName: "Steel Wave",
     images: [
       {
         url: "/steelwave-logo.png",
         width: 1200,
         height: 630,
-        alt: "Steel Wave — engineered steel solutions. Authorized Tekla training and structural steel detailing.",
+        alt: "Steel Wave — engineered steel solutions. Structural steel detailing experts.",
       },
     ],
     locale: "en_IN",
@@ -50,15 +48,15 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Steel Wave — Tekla Training & Structural Steel Detailing | Trichy",
+    title: "Steel Wave — Structural Steel Detailing Experts | Trichy",
     description:
-      "Steel Wave (est. 2018): authorized Tekla training, 180+ student placements, and structural steel detailing from input review to fabrication release. Thillai Nagar, Trichy, Tamil Nadu.",
+      "Steel Wave (est. 2018): High-quality structural steel detailing services from input review to fabrication release. Thillai Nagar, Trichy.",
     images: ["/steelwave-logo.png"],
   },
   icons: {
-    icon: "/steelwave-logo.png",
-    shortcut: "/steelwave-logo.png",
-    apple: "/steelwave-logo.png",
+    icon: "/icon.png",
+    shortcut: "/icon.png",
+    apple: "/icon.png",
   },
 };
 
