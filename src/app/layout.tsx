@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     siteName: "Merge Steel",
     images: [
       {
-        url: "/mergesteel.png",
+        url: "/mergesteel-og.jpg",
         width: 1200,
         height: 630,
         alt: "Merge Steel — engineered steel solutions. Structural steel detailing experts.",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     title: "Merge Steel — Structural Steel Detailing Experts | Trichy",
     description:
       "Merge Steel (est. 2018): High-quality structural steel detailing services from input review to fabrication release. Thillai Nagar, Trichy.",
-    images: ["/mergesteel.png"],
+    images: ["/mergesteel-og.jpg"],
   },
   icons: {
     icon: "/icon.png",
