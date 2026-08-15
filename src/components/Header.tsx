@@ -26,16 +26,14 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed left-0 right-0 z-50 transition-all duration-500 flex justify-center ${
-        isScrolled ? "top-6 px-4 sm:px-6" : "top-0 px-0"
-      }`}
+      className={`fixed left-0 right-0 z-50 transition-all duration-500 flex justify-center ${isScrolled ? "top-6 px-4 sm:px-6" : "top-0 px-0"
+        }`}
     >
       <div
-        className={`w-full transition-all duration-500 flex items-center justify-between ${
-          isScrolled
+        className={`w-full transition-all duration-500 flex items-center justify-between ${isScrolled
             ? "max-w-6xl rounded-full px-6 py-3 bg-white/90 backdrop-blur-xl shadow-lg border border-border"
             : "max-w-7xl rounded-none px-4 sm:px-6 py-5 bg-transparent border-transparent"
-        }`}
+          }`}
       >
         {/* Left: Logo */}
         <div className="flex-1 flex justify-start">
@@ -45,18 +43,17 @@ export default function Header() {
           >
             {/* We will use a regular img tag to avoid Next.js Image optimization configuration issues with external URLs or missing local assets for now */}
             <img
-              src="/steelwave-logo.png"
-              alt="Steel Wave"
-              className="h-12 w-auto md:h-16 object-contain object-left group-hover:scale-105 transition-transform"
+              src="/mergesteel.png"
+              alt="Merge Steel"
+              className="h-12 w-auto md:h-20 object-contain object-left group-hover:scale-105 transition-transform"
             />
           </Link>
         </div>
 
         {/* Center: Navigation Links */}
         <nav
-          className={`hidden md:flex items-center gap-8 px-8 py-2 transition-all duration-500 ${
-            isScrolled ? "bg-transparent" : "bg-transparent"
-          }`}
+          className={`hidden md:flex items-center gap-8 px-8 py-2 transition-all duration-500 ${isScrolled ? "bg-transparent" : "bg-transparent"
+            }`}
         >
           {navLinks.map((link) => (
             <Link

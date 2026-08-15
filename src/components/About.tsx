@@ -7,10 +7,10 @@ export default function About() {
         <div className="animate-in">
           <div className="section-eyebrow mb-3">About us</div>
           <h2 className="text-3xl font-bold leading-tight tracking-tight text-navy md:text-5xl">
-            Steel Wave — <span className="text-gradient">Structural detailing</span> experts
+            Merge Steel — <span className="text-gradient">Structural detailing</span> experts
           </h2>
           <p className="mt-6 text-base leading-relaxed text-navy/70 md:text-lg">
-            Steel Wave was established in <strong className="font-semibold text-navy">2018</strong> to provide high-quality structural steel detailing services. We deliver precision and discipline to our detailing customers: well-defined processes, strict quality, and dependable schedules.
+            Merge Steel was established in <strong className="font-semibold text-navy">2018</strong> to provide high-quality structural steel detailing services. We deliver precision and discipline to our detailing customers: well-defined processes, strict quality, and dependable schedules.
           </p>
           <p className="mt-4 text-base leading-relaxed text-navy/70 md:text-lg">
             Each assignment is managed by a dedicated team headed by a project manager, supported by checkers, modelers, editors, and detailers to ensure accuracy and timely delivery.

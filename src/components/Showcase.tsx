@@ -6,12 +6,12 @@ export default function Showcase() {
       title: "High-Rise Frames",
       description: "Multi-storey moment frames detailed to AISC.",
       // Using placeholders since we don't have the real images
-      image: "https://images.unsplash.com/photo-1541888081-3e44917a2ce1?q=80&w=800&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format&fit=crop",
     },
     {
       title: "Steel Bridges",
       description: "Plate girders and trusses, weld-mapped.",
-      image: "https://images.unsplash.com/photo-1473176766440-6218e8156db3?q=80&w=800&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=800&auto=format&fit=crop",
     },
     {
       title: "BIM Coordination",

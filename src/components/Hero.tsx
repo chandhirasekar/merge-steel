@@ -58,7 +58,7 @@ export default function Hero() {
           Structural detailing — Trichy
         </div>
         <h1 className="mt-8 max-w-4xl text-4xl font-bold leading-[1.12] tracking-tight text-navy md:text-6xl lg:text-[4.25rem]">
-          <span className="text-navy">Steel Wave.</span> Engineering precision through{" "}
+          <span className="text-navy">Merge Steel.</span> Engineering precision through{" "}
           <span className="text-gradient relative inline-block">
             advanced steel detailing
             <span className="absolute -bottom-1 left-0 right-0 h-0.5 origin-left rounded-full bg-gradient-to-r from-primary via-accent to-primary/30" style={{ transform: "scaleX(1)" }}></span>

@@ -14,12 +14,12 @@ const outfit = Outfit({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://merge-steel-three.vercel.app"),
-  title: "Steel Wave — Structural Steel Detailing Experts | Trichy",
+  title: "Merge Steel — Structural Steel Detailing Experts | Trichy",
   description:
-    "Steel Wave (est. 2018): High-quality structural steel detailing services from input review to fabrication release. Specializing in advanced BIM coordination and clash detection. Thillai Nagar, Trichy.",
+    "Merge Steel (est. 2018): High-quality structural steel detailing services from input review to fabrication release. Specializing in advanced BIM coordination and clash detection. Thillai Nagar, Trichy.",
   keywords: [
-    "Steel Wave",
-    "STEELWAVE",
+    "Merge Steel",
+    "MERGESTEEL",
     "engineered steel solutions",
     "structural steel detailing",
     "steel detailing India",
@@ -28,19 +28,19 @@ export const metadata: Metadata = {
     "BIM Trichy",
     "Thillai Nagar",
   ],
-  authors: [{ name: "Steel Wave" }],
+  authors: [{ name: "Merge Steel" }],
   openGraph: {
-    title: "Steel Wave — Structural Steel Detailing Experts | Trichy",
+    title: "Merge Steel — Structural Steel Detailing Experts | Trichy",
     description:
-      "Steel Wave (est. 2018): High-quality structural steel detailing services from input review to fabrication release. Thillai Nagar, Trichy.",
+      "Merge Steel (est. 2018): High-quality structural steel detailing services from input review to fabrication release. Thillai Nagar, Trichy.",
     url: "https://merge-steel-three.vercel.app/",
-    siteName: "Steel Wave",
+    siteName: "Merge Steel",
     images: [
       {
-        url: "/steelwave-logo.png",
+        url: "/mergesteel.png",
         width: 1200,
         height: 630,
-        alt: "Steel Wave — engineered steel solutions. Structural steel detailing experts.",
+        alt: "Merge Steel — engineered steel solutions. Structural steel detailing experts.",
       },
     ],
     locale: "en_IN",
@@ -48,10 +48,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Steel Wave — Structural Steel Detailing Experts | Trichy",
+    title: "Merge Steel — Structural Steel Detailing Experts | Trichy",
     description:
-      "Steel Wave (est. 2018): High-quality structural steel detailing services from input review to fabrication release. Thillai Nagar, Trichy.",
-    images: ["/steelwave-logo.png"],
+      "Merge Steel (est. 2018): High-quality structural steel detailing services from input review to fabrication release. Thillai Nagar, Trichy.",
+    images: ["/mergesteel.png"],
   },
   icons: {
     icon: "/icon.png",

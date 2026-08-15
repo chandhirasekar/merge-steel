@@ -23,7 +23,7 @@ export default function Contact() {
               </div>
               <div className="rounded-lg border border-border bg-card px-5 py-5 shadow-sm animate-in" style={{ animationDelay: "100ms" }}>
                 <div className="text-xs font-semibold uppercase tracking-wide text-navy/45">Email</div>
-                <a href="mailto:steelwavetrichy@gmail.com" className="mt-2 block font-display text-base font-semibold text-navy underline-offset-4 hover:text-primary hover:underline">steelwavetrichy@gmail.com</a>
+                <a href="mailto:mergesteeltrichy@gmail.com" className="mt-2 block font-display text-base font-semibold text-navy underline-offset-4 hover:text-primary hover:underline">mergesteeltrichy@gmail.com</a>
               </div>
               <div className="rounded-lg border border-border bg-card px-5 py-5 shadow-sm sm:col-span-2 animate-in" style={{ animationDelay: "200ms" }}>
                 <div className="text-xs font-semibold uppercase tracking-wide text-navy/45">Address</div>

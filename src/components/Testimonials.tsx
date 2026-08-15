@@ -1,7 +1,7 @@
 export default function Testimonials() {
   const testimonials = [
     {
-      quote: "Steel Wave's Tekla models are the cleanest we've handed to fabrication in a decade.",
+      quote: "Merge Steel's Tekla models are the cleanest we've handed to fabrication in a decade.",
       author: "M. Halverson",
       title: "VP Engineering, Northbridge Steel"
     },
